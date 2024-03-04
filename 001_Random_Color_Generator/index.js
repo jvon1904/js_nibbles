@@ -1,4 +1,4 @@
-const body = document.getElementsByTagName('body').item(0);
+const body = document.querySelector('body');
 const colorLabel = document.getElementById('colorLabel');
 
 function displayColor(color) {

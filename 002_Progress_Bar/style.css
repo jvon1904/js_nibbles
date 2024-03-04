@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 10000px;
+}
+
+#progressBar {
+  position: sticky;
+  width: 100%;
+  height: 10px;
+  top: 0px;
+}
+
+#progressFill {
+  display: block;
+  width: 0px;
+  background-color: green;
+  height: 100%;
+}
+
+#percentLabel {
+  position: fixed;
+  font-size: 10rem;
+}
